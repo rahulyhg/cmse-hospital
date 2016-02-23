@@ -101,7 +101,7 @@ class UsageController extends Controller
 
         \Cart::destroy();
 
-        return \Redirect::action('UsageController@index')->with('flash_message','Request Successfully Send! Please wait for the approval.');
+        return \Redirect::action('UsageController@index')->with('flash_message','Usages Saved!');
 
 
     }

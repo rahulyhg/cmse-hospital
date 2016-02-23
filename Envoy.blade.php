@@ -29,7 +29,8 @@ composer install --prefer-dist;
 
 @task('update_permissions')
 cd {{ $release_dir }};
-
+chmod 777 {{ $release_dir }}/{{ $release }}/vendor -R
+chmod 777 {{ $release_dir }}/{{ $release }}/storage -R
 
 @endtask
 
