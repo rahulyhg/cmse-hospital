@@ -1,10 +1,10 @@
 @servers(['production'=>'root@192.168.1.150'])
 
 <?php
-$repo = 'git@github.com:warrence/cmse.git';
-$release_dir = '/var/www/html/backend/releases';
-$env = '/var/www/html/backend/.env';
-$app_dir = '/var/www/html/backend/cmse';
+$repo = 'git@github.com-cmse-hospital:warrence/cmse-hospital.git';
+$release_dir = '/var/www/html/frontend/releases';
+$env = '/var/www/html/frontend/.env';
+$app_dir = '/var/www/html/frontend/cmse-hospital';
 $release = 'release_' . date('YmdHis');
 ?>
 

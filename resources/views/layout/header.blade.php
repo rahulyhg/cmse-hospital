@@ -2,7 +2,7 @@
 			<div id="logo-group">
 
 				<!-- PLACE YOUR LOGO HERE -->
-				<span id="logo"> <img src="/img/logo.png" alt="SmartAdmin"> </span>
+				<span id="logo"> <!--img src="/img/logo.png" alt="SmartAdmin"--> <strong>CMSE Hospital Frontend</strong></span>
 				<!-- END LOGO PLACEHOLDER -->
 
 
@@ -23,8 +23,8 @@
 				<!-- Top menu profile link : this shows only when top menu is active -->
 				<ul id="mobile-profile-img" class="header-dropdown-list hidden-xs padding-5">
 					<li class="">
-						<a href="#" class="dropdown-toggle no-margin userdropdown" data-toggle="dropdown">
-							<img src="/img/avatars/sunny.png" alt="John Doe" class="online" />
+						<a href="#" class="dropdown-toggle no-margin userdropdown glyphicon glyphicon-user btn btn-info" data-toggle="dropdown">
+
 						</a>
 						<ul class="dropdown-menu pull-right">
 							<li>
