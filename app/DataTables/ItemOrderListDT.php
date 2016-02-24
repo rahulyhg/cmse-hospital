@@ -22,7 +22,7 @@ class ItemOrderListDT extends DataTable
         return $this->datatables
             ->eloquent($this->query())
             ->addColumn('action', function ($item) {
-                return '<a href="orders/'.$item->id.'"><button><i class="glyphicon glyphicon-eye-open"></i></button></a><a href="#" data-toggle="modal" data-target="#myModal"><button class="btn-add-cart" data-remote="'.$item->item_code.'"><i class="glyphicon glyphicon-shopping-cart"></i></button></a>';
+                return '<a href="/items/'.$item->id.'"><button><i class="glyphicon glyphicon-eye-open"></i></button></a><a href="#" data-toggle="modal" data-target="#myModal"><button class="btn-add-cart" data-remote="'.$item->item_code.'"><i class="glyphicon glyphicon-shopping-cart"></i></button></a>';
             })
             ->editColumn('category',function($item){
                 return $item->category->name;

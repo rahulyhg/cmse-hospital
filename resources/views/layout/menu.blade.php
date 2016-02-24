@@ -6,11 +6,10 @@
             <span> <!-- User image size is adjusted inside CSS, it should stay as it -->
 
                 <a href="javascript:void(0);" id="show-shortcut" data-action="toggleShortcut">
-                    <img src="img/avatars/sunny.png" alt="me" class="online" />
+                    <i class="fa fa-user fa-2x"></i>
                     <span>
-                        john.doe
+                        &nbsp;&nbsp;&nbsp;{!! \Auth::guest() ? '<a href="'.URL::to('login').'">Log In</a>' : \Auth::user()->name !!}
                     </span>
-                    <i class="fa fa-angle-down"></i>
                 </a>
 
             </span>
