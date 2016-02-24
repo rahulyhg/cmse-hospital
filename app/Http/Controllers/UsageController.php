@@ -23,8 +23,8 @@ use Carbon\Carbon;
 class UsageController extends Controller
 {
     public function index(){
-        //$usages = Usage::whereDate('created_at','=',Carbon::now()->format('Y-m-d'))->get();
-        $usages = Usage::whereDate('created_at','=','2016-02-22')->get();
+        $usages = Usage::whereDate('created_at','=',Carbon::now()->format('Y-m-d'))->get();
+        //$usages = Usage::whereDate('created_at','=','2016-02-22')->get();
         return view('usages.index', compact('usages'));
     }
 
