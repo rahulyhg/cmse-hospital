@@ -58,7 +58,7 @@
 @show
 </title>
 </head>
-<body class="smart-style-0 desktop-detected menu-on-top">
+<body class="smart-style-0">
 
   @include('layout.header')
   @include('layout.menu')
@@ -97,7 +97,7 @@
     <!-- END RIBBON -->
 
     <!-- MAIN CONTENT -->
-    <div class="container" id="content">
+    <div id="content">
         @if($errors->any())
             <div class="alert alert-block alert-danger">
                 <a class="close" data-dismiss="alert" href="#">×</a>

@@ -1,7 +1,6 @@
 <!-- Left panel : Navigation area -->
     <!-- Note: This width of the aside area can be adjusted through LESS variables -->
     <aside id="left-panel">
-
         <!-- User info -->
         <div class="login-info">
             <span> <!-- User image size is adjusted inside CSS, it should stay as it -->
@@ -26,7 +25,7 @@
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-lg fa-fw fa-barcode "></i> <span class="menu-item-parent">Items</span></a>
-                    <ul class="dropdown-menu">
+                    <ul>
                         <li>
                             <a href="{!! url('items') !!}">Item List</a>
                         </li>
@@ -34,8 +33,8 @@
                 </li>
 
                 <li>
-                    <a href="#"><i class="fa fa-lg fa-fw fa-barcode "></i> <span class="menu-item-parent">Requests</span></a>
-                    <ul class="dropdown-menu">
+                    <a href="#"><i class="fa fa-lg fa-fw fa-file-text-o "></i> <span class="menu-item-parent">Requests</span></a>
+                    <ul>
                         <li>
                             <a href="{!! url('orders') !!}">My Item Requests</a>
                         </li>
@@ -45,8 +44,8 @@
                 </li>
 
                 <li>
-                    <a href="#"><i class="fa fa-lg fa-fw fa-barcode "></i> <span class="menu-item-parent">Usages</span></a>
-                    <ul class="dropdown-menu">
+                    <a href="#"><i class="fa fa-lg fa-fw fa-book "></i> <span class="menu-item-parent">Usages</span></a>
+                    <ul>
                         <li>
                             <a href="{!! url('usages/newusage') !!}">Usage Entry</a>
                         </li>
