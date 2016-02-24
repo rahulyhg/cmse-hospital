@@ -48,6 +48,9 @@
                         <li>
                             <a href="{!! url('usages/newusage') !!}">Usage Entry</a>
                         </li>
+                        <li>
+                            <a href="{!! url('usages') !!}">Usage History</a>
+                        </li>
                     </ul>
                 </li>
 
