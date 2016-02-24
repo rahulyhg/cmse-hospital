@@ -35,7 +35,7 @@ class OrderHeaderDT extends DataTable
                     return "Approved";
 
                 if($status == "delivering")
-                    return "Delivering";
+                    return "Delivering <a href='orders/".$data->id."' class='btn btn-success btn-xs'>Received Now</a>";
 
                 if($status == "received")
                     return "Received";
