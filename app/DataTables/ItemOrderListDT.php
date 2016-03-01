@@ -85,7 +85,7 @@ class ItemOrderListDT extends DataTable
             //'barcode',
             'description',
             ['data'=>'category','name'=>'category','title'=>'Category','searchable'=>false,'orderable'=>false],
-            'qty'
+            ['data'=>'qty','name'=>'qty','title'=>'QTY','searchable'=>false,'orderable'=>false],
         ];
     }
 
