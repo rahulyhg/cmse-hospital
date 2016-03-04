@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f75a1d7a-3d0b-4b63-b86f-badacdd6041b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/DataTables/ItemOrderListDT.php" afterPath="$PROJECT_DIR$/app/DataTables/ItemOrderListDT.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Envoy.blade.php" afterPath="$PROJECT_DIR$/Envoy.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
     </list>
     <ignored path="cmse-hospital.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,26 +47,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layout/default.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="menu.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layout/menu.blade.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,11 +67,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemOrderListDT.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ItemOrderListDT.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/DataTables/ItemOrderListDT.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.222973">
+            <state vertical-scroll-proportion="-30.166666">
               <caret line="87" column="96" selection-start-line="87" selection-start-column="96" selection-end-line="87" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Envoy.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Envoy.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Authenticate.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5168919">
+              <caret line="30" column="88" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -171,8 +171,6 @@
         <option value="$PROJECT_DIR$/resources/views/usages/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Usage.php" />
         <option value="$PROJECT_DIR$/resources/views/usages/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
-        <option value="$PROJECT_DIR$/Envoy.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layout/default.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
@@ -182,6 +180,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/UsageController.php" />
         <option value="$PROJECT_DIR$/app/DataTables/OrderHeaderDT.php" />
         <option value="$PROJECT_DIR$/app/DataTables/ItemOrderListDT.php" />
+        <option value="$PROJECT_DIR$/Envoy.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" />
       </list>
     </option>
   </component>
@@ -847,20 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.791667">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Envoy.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.583333">
-          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -944,8 +930,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/DataTables/ItemOrderListDT.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.222973">
+        <state vertical-scroll-proportion="-30.166666">
           <caret line="87" column="96" selection-start-line="87" selection-start-column="96" selection-end-line="87" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Envoy.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5168919">
+          <caret line="30" column="88" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
           <folding />
         </state>
       </provider>

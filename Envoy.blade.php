@@ -1,4 +1,4 @@
-@servers(['production'=>'root@192.168.1.150'])
+@servers(['production'=>'root@cmse.com.my'])
 
 <?php
 $repo = 'git@github.com-cmse-hospital:warrence/cmse-hospital.git';

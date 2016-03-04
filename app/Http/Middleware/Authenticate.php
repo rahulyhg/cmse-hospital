@@ -27,7 +27,8 @@ class Authenticate
         }
 
         if(!Auth::getUser()->hasRole('supervisor')){
-            return response('Unauthorized.', 401);
+            Auth::logout();
+            return \Redirect::back()->withErrors(['userid'=>'You do not have access!']);
         }
 
 
